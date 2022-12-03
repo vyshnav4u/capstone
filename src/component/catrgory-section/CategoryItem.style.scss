@@ -1,0 +1,29 @@
+.category-container {
+    border: 1px solid #000;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-width: calc(100% / 3);
+    flex-grow: 1;
+    position: relative;
+
+    .category-backgorund-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        background-size: cover;
+    }
+
+    .category-body-conatienr {
+        z-index: 600;
+        color: #fff;
+    }
+
+    .category-body-conatienr {
+        background: rgba(255, 255, 255, 0.644);
+        padding: 6px 12px;
+        text-align: center;
+    }
+}

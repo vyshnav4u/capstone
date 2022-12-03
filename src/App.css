@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+.categories-sec {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-height: 300px;	
+}
