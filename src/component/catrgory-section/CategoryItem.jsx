@@ -1,6 +1,5 @@
 import React from 'react';
-import { categoryData } from '../../service/data/getData';
-import "./CategoryItem.style.scss"
+import "./CategoryItem.scss"
 
 const CategoryItem = (props) => {
 	const {category}  =props;

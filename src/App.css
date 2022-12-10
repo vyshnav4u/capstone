@@ -8,3 +8,13 @@
 	flex-wrap: wrap;
 	min-height: 300px;	
 }
+
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
